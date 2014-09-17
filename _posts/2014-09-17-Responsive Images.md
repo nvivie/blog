@@ -13,8 +13,8 @@ title: Reponsive Images
 
 
 ### How to implement responsive images
-```
+{% highlight css %}
 .someclass {
   color: #f00;
 }
-```
+{% endhighlight %}
