@@ -10,16 +10,17 @@ Images are some of the most important pieces of information on the web. It’s a
 ### Why using them can be so difficult
 
 Responsive images aim to adapt a website so it works optimally within known environmental constraints. Keep in mind that developers have to deal with display dimensions  from desktop to mobile sizes and display quality such as pixel density, colour capacity. The goal is to provide the best clarity of content, ease of use, load times, and device performance for any given user. Practically this means we give consideration to each constraint and in response changes the design by adjusting some aspect of it. For example:
-Adjusting multi-column layouts to single columns to avoid columns that are too narrow
-Changing font sizes to maintain readability on different screens
-Loading smaller images for devices that do not require large images
+*Adjusting multi-column layouts to single columns to avoid columns that are too narrow
+*Changing font sizes to maintain readability on different screens
+*Loading smaller images for devices that do not require large images
 
  “Retina images” are also a challenge because if you have sized your layout with ems or percentages, then you can not be sure of the exact pixel dimensions of each image being displayed.
 
 
 ### How to implement responsive images
-#### By using CSS:
-{% highlight css %}
+#### By using CSS:####
+````
+//mobile first
 .banner {
       height: 200px;
       background-image: url('banner-mobile.jpg');
@@ -34,6 +35,8 @@ Loading smaller images for devices that do not require large images
       background-image: url('banner-mobile@2x.jpg');    
     }
   }
+````
+````
 //tablet
 @media(min-width: 768px){
       .banner{
@@ -48,6 +51,9 @@ Loading smaller images for devices that do not require large images
         background-image: url('banner-tablet@2x.jpg');
       }
     }
+````
+
+````
 //desktop
 @media(min-width: 1024px){
       .banner{
@@ -61,6 +67,6 @@ Loading smaller images for devices that do not require large images
       .banner {
         background-image: url('banner-tablet@2x.jpg');
       }
+````
 
-
-{% endhighlight %}
+<!--{% endhighlight %}-->
