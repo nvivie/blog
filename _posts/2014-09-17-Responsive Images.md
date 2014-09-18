@@ -19,7 +19,7 @@ Responsive images aim to adapt a website so it works optimally within known envi
 
 ### How to implement responsive images
 #### By using CSS
-````
+```
 //mobile first
 .banner {
       height: 200px;
@@ -35,8 +35,7 @@ Responsive images aim to adapt a website so it works optimally within known envi
       background-image: url('banner-mobile@2x.jpg');    
     }
   }
-````
-````
+
 //tablet
 @media(min-width: 768px){
       .banner{
@@ -51,9 +50,7 @@ Responsive images aim to adapt a website so it works optimally within known envi
         background-image: url('banner-tablet@2x.jpg');
       }
     }
-````
 
-````
 //desktop
 @media(min-width: 1024px){
       .banner{
@@ -67,11 +64,10 @@ Responsive images aim to adapt a website so it works optimally within known envi
       .banner {
         background-image: url('banner-tablet@2x.jpg');
       }
-````
+```
 
-<!--{% endhighlight %}-->
 #### By using Polyfill
-Using the Picturefill polyfill, the image chosen will be the one with the media query that is matched first. This means that the order of the <source> tags matters. If you're going mobile first, you must supply your sources from largest to smallest.
+Using the Picturefill polyfill, the image chosen will be the one with the media query that is matched first. This means that the order of the {%highlight css%} <source> {% endhighlight %} tags matters. If you're going mobile first, you must supply your sources from largest to smallest.
 Replace your normal <img> by <picture>
 
 {%highlight css%}
