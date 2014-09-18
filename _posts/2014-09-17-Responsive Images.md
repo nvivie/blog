@@ -24,49 +24,49 @@ Responsive images aim to adapt a website so it works optimally within known envi
 
 #### By using CSS
 {%highlight css %}
-{% comment %}mobile{% endcomment %}
+<!--mobile-->
 .banner {
-   height: 200px;
-   background-image: url('banner-mobile.jpg');
-   background-repeat: no-repeat;
-   background-size: cover;
-   text-align: center;
-   font-size: 5rem;
+  height: 200px;
+  background-image: url('banner-mobile.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-size: 5rem;
 }
-{% comment %}high res mobile{% endcomment %}
+<!--high res mobile-->
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
    .banner {
-   background-image: url('banner-mobile@2x.jpg');    
+    background-image: url('banner-mobile@2x.jpg');    
    }
 }
 
-{% comment %}tablet{% endcomment %}
+<!--tablet-->
 @media(min-width: 768px){
    .banner{
-   background-image: url('banner-tablet.jpg');
-   height: 300px;
-   font-size: 7rem;
+    background-image: url('banner-tablet.jpg');
+    height: 300px;
+    font-size: 7rem;
 }
-{% comment %}high res tablet{% endcomment %}
+<!--high res tablet-->
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
    (min-resolution: 192dpi) and (min-width: 768px) {
    .banner {
-   background-image: url('banner-tablet@2x.jpg');
+    background-image: url('banner-tablet@2x.jpg');
    }
 }
 
-{% comment %}desktop{% endcomment %}
+<!--desktop-->
 @media(min-width: 1024px){
    .banner{
-   background-image: url('banner-desktop.jpg');
-   height: 400px;
-   font-size: 9rem;
+    background-image: url('banner-desktop.jpg');
+    height: 400px;
+    font-size: 9rem;
 }
-{% comment %}high res desktop{% endcomment %}
+<!--high res desktop-->
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
    (min-resolution: 192dpi) and (min-width: 768px) {
    .banner {
-   background-image: url('banner-tablet@2x.jpg');
+    background-image: url('banner-tablet@2x.jpg');
 }
 {% endhighlight %}
 
@@ -76,8 +76,8 @@ Replace your normal <img> by <picture>
 
 {%highlight html%}
 <picture>
-        <source media="(min-width:1024px)" srcset="preparation-desktop.jpg"></source>
-        <source media="(min-width:768px)" srcset="preparation-tablet.jpg"></source>
-        <img srcset="preparation-mobile.jpg" alt="prepare your coffee">
+   <source media="(min-width:1024px)" srcset="preparation-desktop.jpg"></source>
+   <source media="(min-width:768px)" srcset="preparation-tablet.jpg"></source>
+   <img srcset="preparation-mobile.jpg" alt="prepare your coffee">
 </picture>
 {% endhighlight %}
