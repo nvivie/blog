@@ -10,9 +10,9 @@ Images are some of the most important pieces of information on the web. It’s a
 ### Why using them can be so difficult
 
 Responsive images aim to adapt a website so it works optimally within known environmental constraints. Keep in mind that developers have to deal with display dimensions  from desktop to mobile sizes and display quality such as pixel density, colour capacity. The goal is to provide the best clarity of content, ease of use, load times, and device performance for any given user. Practically this means we give consideration to each constraint and in response changes the design by adjusting some aspect of it. For example:
-1.Adjusting multi-column layouts to single columns to avoid columns that are too narrow\s
-2.Changing font sizes to maintain readability on different screens\s
-3.Loading smaller images for devices that do not require large images\s
+---Adjusting multi-column layouts to single columns to avoid columns that are too narrow--
+---Changing font sizes to maintain readability on different screens--
+---Loading smaller images for devices that do not require large images--
 
  “Retina images” are also a challenge because if you have sized your layout with ems or percentages, then you can not be sure of the exact pixel dimensions of each image being displayed.
 
@@ -23,52 +23,52 @@ Responsive images aim to adapt a website so it works optimally within known envi
 {%highlight css %}
 <!--mobile-->
 .banner {
-      height: 200px;
-      background-image: url('banner-mobile.jpg');
-      background-repeat: no-repeat;
-      background-size: cover;
-      text-align: center;
+   height: 200px;
+   background-image: url('banner-mobile.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
    font-size: 5rem;
-   }
+}
 <!--high res mobile-->
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    .banner {
-      background-image: url('banner-mobile@2x.jpg');    
-    }
-  }
+   .banner {
+   background-image: url('banner-mobile@2x.jpg');    
+   }
+}
 
 <!--tablet-->
 @media(min-width: 768px){
-      .banner{
-        background-image: url('banner-tablet.jpg');
-        height: 300px;
-        font-size: 7rem;
-      }
+   .banner{
+   background-image: url('banner-tablet.jpg');
+   height: 300px;
+   font-size: 7rem;
+}
 <!--high res tablet-->
-  @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
-    (min-resolution: 192dpi) and (min-width: 768px) {
-      .banner {
-        background-image: url('banner-tablet@2x.jpg');
-      }
-    }
+@media (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
+   (min-resolution: 192dpi) and (min-width: 768px) {
+   .banner {
+   background-image: url('banner-tablet@2x.jpg');
+   }
+}
 
 <!--desktop-->
 @media(min-width: 1024px){
-      .banner{
-        background-image: url('banner-desktop.jpg');
-        height: 400px;
-        font-size: 9rem;
-      }
+   .banner{
+   background-image: url('banner-desktop.jpg');
+   height: 400px;
+   font-size: 9rem;
+}
 <!--high res desktop-->
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
-    (min-resolution: 192dpi) and (min-width: 768px) {
-      .banner {
-        background-image: url('banner-tablet@2x.jpg');
-      }
+   (min-resolution: 192dpi) and (min-width: 768px) {
+   .banner {
+   background-image: url('banner-tablet@2x.jpg');
+}
 {% endhighlight %}
 
 #### By using Polyfill
-Using the Picturefill polyfill, the image chosen will be the one with the media query that is matched first. This means that the order of the <source>  tags matters. If you're going mobile first, you must supply your sources from largest to smallest.
+Using the Picturefill polyfill, the image chosen will be the one with the media query that is matched first. This means that the order of the <source> tags matters. If you're going mobile first, you must supply your sources from largest to smallest.
 Replace your normal <img> by <picture>
 
 {%highlight html%}
