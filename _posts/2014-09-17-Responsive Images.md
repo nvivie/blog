@@ -71,13 +71,13 @@ Responsive images aim to adapt a website so it works optimally within known envi
 {% endhighlight %}
 
 #### By using Polyfill
-Using the Picturefill polyfill, the image chosen will be the one with the media query that is matched first. This means that the order of the **emphasized** _<source>_. tags matters. If you're going mobile first, you must supply your sources from largest to smallest.
-Replace your normal  **emphasized** _<img>_ by **emphasized** _<picture>_
+Using the Picturefill polyfill, the image chosen will be the one with the media query that is matched first. This means that the order of the _<source>_. tags matters. If you're going mobile first, you must supply your sources from largest to smallest.
+Replace your normal  <<img>> by <<picture>>
 
 {%highlight html%}
 <picture>
-   <source media="(min-width:1024px)" srcset="preparation-desktop.jpg"></source>
-   <source media="(min-width:768px)" srcset="preparation-tablet.jpg"></source>
-   <img srcset="preparation-mobile.jpg" alt="prepare your coffee">
+   <source media="(min-width:1024px)" srcset="banner-desktop.jpg banner-desktop@2x.jpg 2x"></source>
+   <source media="(min-width:768px)" srcset="banner-tablet.jpg, banner-tablet@2x.jpg 2x"></source>
+   <img srcset="banner-mobile.jpg, banner-mobile@2x.jpg 2x" alt="prepare your coffee">
 </picture>
 {% endhighlight %}
