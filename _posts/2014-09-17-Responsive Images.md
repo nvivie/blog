@@ -70,3 +70,14 @@ Responsive images aim to adapt a website so it works optimally within known envi
 ````
 
 <!--{% endhighlight %}-->
+#### By using Polyfill
+Using the Picturefill polyfill, the image chosen will be the one with the media query that is matched first. This means that the order of the <source> tags matters. If you're going mobile first, you must supply your sources from largest to smallest.
+Replace your normal <img> by <picture>
+
+{%highlight css%}
+<picture>
+        <source media="(min-width:1024px)" srcset="preparation-desktop.jpg"></source>
+        <source media="(min-width:768px)" srcset="preparation-tablet.jpg"></source>
+        <img srcset="preparation-mobile.jpg" alt="prepare your coffee">
+      </picture>
+{% endhighlight %}
