@@ -18,9 +18,10 @@ Responsive images aim to adapt a website so it works optimally within known envi
 
 
 ### How to implement responsive images
-### By using CSS
+
+#### By using CSS
 {%highlight css %}
-<!---mobile-->
+<!--mobile-->
 .banner {
       height: 200px;
       background-image: url('banner-mobile.jpg');
@@ -29,21 +30,21 @@ Responsive images aim to adapt a website so it works optimally within known envi
       text-align: center;
    font-size: 5rem;
    }
-<!---high res mobile-->
+<!--high res mobile-->
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .banner {
       background-image: url('banner-mobile@2x.jpg');    
     }
   }
 
-<!---tablet-->
+<!--tablet-->
 @media(min-width: 768px){
       .banner{
         background-image: url('banner-tablet.jpg');
         height: 300px;
         font-size: 7rem;
       }
-<!---high res tablet-->
+<!--high res tablet-->
   @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
     (min-resolution: 192dpi) and (min-width: 768px) {
       .banner {
@@ -51,14 +52,14 @@ Responsive images aim to adapt a website so it works optimally within known envi
       }
     }
 
-<!---desktop-->
+<!--desktop-->
 @media(min-width: 1024px){
       .banner{
         background-image: url('banner-desktop.jpg');
         height: 400px;
         font-size: 9rem;
       }
-<!---high res desktop-->
+<!--high res desktop-->
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
     (min-resolution: 192dpi) and (min-width: 768px) {
       .banner {
@@ -67,7 +68,7 @@ Responsive images aim to adapt a website so it works optimally within known envi
 {% endhighlight %}
 
 #### By using Polyfill
-Using the Picturefill polyfill, the image chosen will be the one with the media query that is matched first. This means that the order of the {%highlight css%} <source> {% endhighlight %} tags matters. If you're going mobile first, you must supply your sources from largest to smallest.
+Using the Picturefill polyfill, the image chosen will be the one with the media query that is matched first. This means that the order of the <source>  tags matters. If you're going mobile first, you must supply your sources from largest to smallest.
 Replace your normal <img> by <picture>
 
 {%highlight html%}
@@ -75,5 +76,5 @@ Replace your normal <img> by <picture>
         <source media="(min-width:1024px)" srcset="preparation-desktop.jpg"></source>
         <source media="(min-width:768px)" srcset="preparation-tablet.jpg"></source>
         <img srcset="preparation-mobile.jpg" alt="prepare your coffee">
-      </picture>
+</picture>
 {% endhighlight %}
