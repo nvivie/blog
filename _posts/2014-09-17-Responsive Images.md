@@ -24,7 +24,7 @@ Responsive images aim to adapt a website so it works optimally within known envi
 
 #### By using CSS
 {%highlight css %}
-<!--mobile-->
+{% comment %}mobile{% endcomment %}
 .banner {
    height: 200px;
    background-image: url('banner-mobile.jpg');
@@ -33,21 +33,21 @@ Responsive images aim to adapt a website so it works optimally within known envi
    text-align: center;
    font-size: 5rem;
 }
-<!--high res mobile-->
+{% comment %}high res mobile{% endcomment %}
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
    .banner {
    background-image: url('banner-mobile@2x.jpg');    
    }
 }
 
-<!--tablet-->
+{% comment %}tablet{% endcomment %}
 @media(min-width: 768px){
    .banner{
    background-image: url('banner-tablet.jpg');
    height: 300px;
    font-size: 7rem;
 }
-<!--high res tablet-->
+{% comment %}high res tablet{% endcomment %}
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
    (min-resolution: 192dpi) and (min-width: 768px) {
    .banner {
@@ -55,14 +55,14 @@ Responsive images aim to adapt a website so it works optimally within known envi
    }
 }
 
-<!--desktop-->
+{% comment %}desktop{% endcomment %}
 @media(min-width: 1024px){
    .banner{
    background-image: url('banner-desktop.jpg');
    height: 400px;
    font-size: 9rem;
 }
-<!--high res desktop-->
+{% comment %}high res desktop{% endcomment %}
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
    (min-resolution: 192dpi) and (min-width: 768px) {
    .banner {
