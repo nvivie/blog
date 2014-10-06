@@ -8,6 +8,7 @@ The concept fascinates me: CSS files that could contain variables, functions,mat
 
 The fact that CSS preprocessors allow you to use variables, mixins and functions is pretty handy. By using these features, you can define a value or a group of values once at the beginning of your stylesheet file. it becomes much easier to make changes later.
 For example:
+
 {% highlight %}
 $text-color: #222223;
 $light-blue: #a7eaf6;
