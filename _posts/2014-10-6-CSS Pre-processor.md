@@ -8,7 +8,7 @@ The concept fascinates me: CSS files that could contain variables, functions,mat
 
 The fact that CSS preprocessors allow you to use variables, mixins and functions is pretty handy. By using these features, you can define a value or a group of values once at the beginning of your stylesheet file. it becomes much easier to make changes later.
 For example:
-```
+{% highlight %}
 $text-color: #222223;
 $light-blue: #a7eaf6;
 $std-padding: 20px;
@@ -23,10 +23,11 @@ h2{
   padding: $std-padding *2;
 }
 
-```
+{% endhighlight %}
 
 In addition, CSS Preprocessors support nesting. This is one of my favorite feature, it keeps things so organized and it makes sense. For example, instead of using:
-```
+
+{% highlight %}
 .front {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -38,11 +39,11 @@ In addition, CSS Preprocessors support nesting. This is one of my favorite featu
   filter: hue-rotate(90deg);
 }
 
-```
+{% endhighlight %}
 
 You could use:
 
-```
+{% highlight %}
 .front {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -54,6 +55,6 @@ You could use:
   }
 }
 
-```
+{% endhighlight %}
 
 Lastly, CSS Preproccessors are easy to set up. By adding another step to your development workflow, you save a lot of time of not reapeating yourself and keep you code under control. With Sass, a simply command line will tell Sass to watch your sass files,then recompiling automatically every time you save changes. One more nice thing about CSS preprocessor is that can tell you the errors while CSS can't.
