@@ -9,7 +9,7 @@ The concept fascinates me: CSS files that could contain variables, functions,mat
 The fact that CSS preprocessors allow you to use variables, mixins and functions is pretty handy. By using these features, you can define a value or a group of values once at the beginning of your stylesheet file. it becomes much easier to make changes later.
 For example:
 
-{% highlight %}
+{% highlight css %}
 $text-color: #222223;
 $light-blue: #a7eaf6;
 $std-padding: 20px;
@@ -28,7 +28,7 @@ h2{
 
 In addition, CSS Preprocessors support nesting. This is one of my favorite feature, it keeps things so organized and it makes sense. For example, instead of using:
 
-{% highlight %}
+{% highlight css %}
 .front {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -44,7 +44,7 @@ In addition, CSS Preprocessors support nesting. This is one of my favorite featu
 
 You could use:
 
-{% highlight %}
+{% highlight css %}
 .front {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
