@@ -56,4 +56,4 @@ You could use:
 
 ```
 
-Lastly, CSS Preproccessors are easy to set up. By adding another step to your development workflow, you save a lot of time of not reapeating yourself and keep you code in nice cycles. With Sass, a simply command line will tell Sass to watch your sass files,then recompiling automatically every time you save changes. One more nice thing about CSS preprocessor is that can tell you the errors while CSS can't.
+Lastly, CSS Preproccessors are easy to set up. By adding another step to your development workflow, you save a lot of time of not reapeating yourself and keep you code under control. With Sass, a simply command line will tell Sass to watch your sass files,then recompiling automatically every time you save changes. One more nice thing about CSS preprocessor is that can tell you the errors while CSS can't.
