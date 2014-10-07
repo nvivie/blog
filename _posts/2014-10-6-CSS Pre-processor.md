@@ -62,5 +62,7 @@ Lastly, CSS Preproccessors are easy to set up. By adding another step to your de
 
 
 You can check the example below:
-<p data-height="680" data-theme-id="0" data-slug-hash="ekpoH" data-default-tab="result" data-user="nvivie" class='codepen'>See the Pen <a href='http://codepen.io/nvivie/pen/ekpoH/'>ekpoH</a> by Vi (<a href='http://codepen.io/nvivie'>@nvivie</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+```
+<p data-height="268" data-theme-id="0" data-slug-hash="ekpoH" data-default-tab="result" data-user="nvivie" class='codepen'>See the Pen <a href='http://codepen.io/nvivie/pen/ekpoH/'>ekpoH</a> by Vi (<a href='http://codepen.io/nvivie'>@nvivie</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//codepen.io/assets/embed/ei.js"></script>
+```
