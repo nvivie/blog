@@ -1,5 +1,5 @@
 ---
-layout:post
+layout: post
 title: A Game of Shark and Minnow
 ---
 A Game of Shark and Minnow is a piece of magazine journalism translated into a multimedia presentation. The readers experience a new interactive feature which is graphically compelling and sophisticated spatial storytelling.
