@@ -4,12 +4,15 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Vi Nguyen
 
-### More Information
+### Education
+2014-2015
+Second Bachelors in Interactive Art & Media at Columbia College Chicago
+Chicago,IL, U.S.A
+Web development and mobile programming
 
-A place to include any other types of information that you'd like to include about yourself. 
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[nvivie.nguyen@gmail.com](mailto:email@domain.com)
