@@ -14,10 +14,13 @@ Since Web Components are the new hotness, I am afraid that it might be a rocky t
 I've tried to experiment with these three components Templates, Custom Elements, Shadow DOM, and here are my initial thoughts.
 
 ####Templates: 
-Templates might solve many performance issues. One of the biggest problems would be images loading. Browsers generally don't care whether <img> is hidden or not, they still load it. For pages with lots of images througout the page, we can priotize and load only the ones that we need to see. By giving a template, we don't have to recreate our content each time. The cool thing is the template can sit anywhere in our html file. To activate this piece of inert code then, we need to clone the template and append it to the DOM.
+Templates might solve many performance issues. One of the biggest problems would be images loading. Browsers generally don't care whether <img> is hidden or not, they still load it. For pages with lots of images througout the page, we can priotize and load only the ones that we need to see. By giving a template, we don't have to recreate our content each time. The cool thing is the template can sit anywhere in our html file. To activate this piece of inert code then, we need to clone the template and append it to the DOM. By the way, be careful with nested templates, activating the outer template will not active inner template.
 
 
 ####Custom Elements:
-Custom elements get me the most excited of all the Web Components. We have the power to create expressive and maintainable markup. Basically, custom elements just give us a new tag to use instead of using general <div>. We can create custom elements easily with a little bit Javascript. Now the question that I have in mind is "How do we make our content reachable to search engine? Will they understand my custom elements tags?"
+Custom elements get me the most excited of all the Web Components. We have the power to create expressive and maintainable markup. Basically, custom elements just give us a new tag to use instead of using general <div> tags. We can create custom elements easily with a little bit Javascript. Now, the question that I have in mind is "How do we make our content reachable to search engine? Will they understand my custom elements tags?"
 
 #### Shadow DOM
+Shadow DOM is designed to provide encapsulation by hiding DOM subtrees under shadow rootes.
+My assumption might be wrong but I feel like having the shadow DOM may slow down our code. A web page is a tree of nodes. If we store our shadow DOM trees in the full page hierarchy, any javascript that walks the tree must inspect every node for its part of shadow DOM. That might slow down the rendering. 
+
