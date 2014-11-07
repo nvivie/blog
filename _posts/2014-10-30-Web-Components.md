@@ -12,6 +12,10 @@ Since Web Components are the new hotness, I am afraid that it might be a rocky t
 
 ###Part2:
 I've tried to experiment with these three components Templates, Custom Elements, Shadow DOM, and here are my initial thoughts.
+
 ####Templates: 
-Templates might solve many performance issues. One of the biggest problems would be images loading. Browsers generally don't care whether <img> is hidden or not, they still load it. For pages with lots of images througout the page, we can priotize and load only the ones that we need to see.
-Custom Elements: 
+Templates might solve many performance issues. One of the biggest problems would be images loading. Browsers generally don't care whether <img> is hidden or not, they still load it. For pages with lots of images througout the page, we can priotize and load only the ones that we need to see. By giving a template, you don't have to recreate your content each time. The cool thing is your template can sit anywhere in your html file. To activate this piece of inert code then, we need to clone the template and append it to the DOM.
+
+
+####Custom Elements:
+
