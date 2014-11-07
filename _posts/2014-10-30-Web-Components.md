@@ -2,7 +2,7 @@
 title: Web Components
 layout: post
 ---
-###Hello, Web Components World:
+###Hello, Web Components World
 At first, I have conflicting feelings about Web Components. I am very excited and very nervous.
 
 This is pretty new and different way of adding new features to browsers. With web components, they give developers much more power than they had before. You can extend existing elements by customizing your own custom elements are also just HTML elements. 
@@ -10,7 +10,7 @@ Creating your own HTML element seems actually quite easy. The only two requireme
 
 Since Web Components are the new hotness, I am afraid that it might be a rocky transition to this new way of thinking. Also I have a bad feeling about browser support. Although web components landed in Chrome 36, they only have partial support in Firefox, and they are not here for Safari and IE. It probably is one of the reason that web components are not ready for production.
 
-###Web Components Critique:
+###Web Components Critique
 I've tried to experiment with these three components Templates, Custom Elements, Shadow DOM, and here are my initial thoughts.
 
 ####Templates: 
