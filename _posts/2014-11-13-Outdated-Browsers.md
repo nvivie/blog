@@ -21,7 +21,7 @@ title: Outdated Browsers
 
 ###  Should you spend development time and money supporting an ever-shrinking, outdated user base?
 
- I have been through the moment I pull my hair out over my broken portoflio in IE8 while everything works fine in Chrome, Firefox and Safari. I wasted endless hours developing for IE. Then I realized that my potential customers or audiences that I aim to probably don't use IE.
+ I have been through the moment I pull my hair out over my broken portoflio page in IE8 while everything works fine in Chrome, Firefox and Safari. I wasted endless hours developing for IE. Then I realized that my potential customers or audiences that I aim to probably don't use IE.
  
  I’m not suggesting that anyone stop developing for IE altogether. Though developers don’t generally care for it, a fair portion of users do – nearly 30 per cent. Rather, I’m suggesting methods to make development more efficient and worthwhile, so time spent developing for IE is productive rather than wasteful.
  
