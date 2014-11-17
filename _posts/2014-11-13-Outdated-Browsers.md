@@ -14,7 +14,7 @@ title: Outdated Browsers
   
 ### Should we just leave older browsers such as IE9 and below out of equation of new web technologies?
 
- In the real world, Internet Explorer still exists. Older versions still do things that confound and inflame us. And plenty of people still use them. IE6 still is in China. Designing and developing websites here is a fallback plans nightmare because an estimated 30% of China’s gigantic online population is using IE6 or local browsers based on its core, according to web browser market share in China (http://blog.mozilla.org/gen/2009/09/15/web-browser-marketshare-in-china/). The root cause of this massive problem are Chinese banks: their e-banking interface are almost entirely made with Internet Explorer in mind and use plenty of ActiveX components. 
+ In the real world, Internet Explorer still exists. Older versions still do things that confound and inflame us. And plenty of people still use them. IE6 still is in China. Designing and developing websites here is a fallback plans nightmare because an estimated 30% of China’s gigantic online population is using IE6 or local browsers based on its core, according to web browser market share in China. The root cause of this massive problem are Chinese banks: their e-banking interface are almost entirely made with Internet Explorer in mind and use plenty of ActiveX components. 
  
  Let's have a look at the browser market share. Almost 26% people still use IE 8 and 9 in the world, if we leave the older browsers like IE9 and below behind. That means we will lose one third of our potential audiences.
 
