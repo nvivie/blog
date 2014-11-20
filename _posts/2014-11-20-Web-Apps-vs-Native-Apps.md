@@ -26,13 +26,13 @@ A Web App, on the other hand, are basically Internet-enabled apps that are acces
 - Web apps run in browsers and browsers are native apps, like Safari app. So anything a web app can do is possible because of a native app.
 - You can make money on native apps everytime users download them.
 - Native apps are more expensive to develop. However, they are more efficient and faster.
-- A native app is totally compatible with the device’s hardware and native features, such as accelerometer, camera and so on
+- A native app is totally compatible with the device’s hardware and native features, such as maps, calendar, camera and so on
 
 ####Cons:
   - Users have to keep downloading updates.
   - Each native app uses difference programming languages. iOs uses Objective-C to develop in XCode and Android uses Java.
 
 ### Conclusion 
-Personally, I side with web apps. For small businesses or a new web developper who wants to build an app, I would say web apps will save you more time and money.Especially, there are more tools for building and monitoring web apps on phones and tablets. And the cost of building mobile web apps versus hiring engineers or an agency to build two or three or four native apps is pretty irresistible.
+Personally, I side with web apps. For small businesses or a new web developper who wants to build an app, I would say web apps will save you more time and money. Especially, nowadays there are more tools for building and monitoring web apps on phones and tablets. And the cost of building mobile web apps versus hiring engineers or an agency to build native apps is pretty irresistible.
 
 By the way, if you or your client are looking for a efficiency, a productivity and a good performance(speed, appearance), then a native app will make more sense.
