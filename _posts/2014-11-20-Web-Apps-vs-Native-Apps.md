@@ -16,16 +16,13 @@ A Web App, on the other hand, are basically Internet-enabled apps that are acces
 ####Cons:
 
 ###Pros and cons of a <strong>NATIVE APP</strong>:
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+
 ####Pros:
 - The benefits of the native app is that it can work independently of the web.
 - Web apps run in browsers and browsers are native apps, like Safari app. So anything a web app can do is possible because of a native app.
 - You can make money on native apps everytime users download them.
-- Native apps are more expensive to develop. However, they are more efficient and 
+- Native apps are more expensive to develop. However, they are more efficient and faster.
+- 
 ####Cons:
   - Users have to keep downloading updates.
 
