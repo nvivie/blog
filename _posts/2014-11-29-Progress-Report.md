@@ -11,10 +11,12 @@ title: Progress Report Final Project
 - Thinking of statements that I will explain in my instruction.
 
 ### The steps remaining to complete the project:
-- Apply Polymer 
+- Import and apply Polymer 
 - Instructions how to use the google maps web component
 
 ### Here it's the benefit by using Polymer's Google Map component.
+
+#### Old way
 {%highlight html%}
 <style>
   #map-canvas{
@@ -34,8 +36,16 @@ title: Progress Report Final Project
   }
   // add DOM listener to the window object, when the map is loaded, it will execute init function
   google.maps.event.addDomListener(window, 'load', init);
-
 </script>
 
 {%endhighlight%}
 
+#### With Polymer's Google Map Component
+{%highlight html%}
+<style>
+  #map-canvas{
+  display: block;
+  height: 100%;}
+</style>
+<google-map latitude="41.876438" longtitude="-87.620576" zoom="10"><google-map>
+{%endhighlight%}
