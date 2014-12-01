@@ -22,6 +22,7 @@ title: Progress Report Final Project
   width: 100%;}
 </style>
 <div id="map-canvas"></div>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
 <script type="text/javascript">
   var map;
   function init(){
