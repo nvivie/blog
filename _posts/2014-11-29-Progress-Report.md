@@ -13,5 +13,28 @@ title: Progress Report Final Project
 ### The steps remaining to complete the project:
 - Apply Polymer 
 - Instructions how to use the google maps web component
-- 
+
+### Here it's the benefit by using Polymer's Google Map component.
+{%highlight html%}
+<style>
+  #map-canvas{
+  height: 100%;
+  width: 100%;}
+</style>
+<div id="map-canvas"></div>
+<script type="text/javascript">
+  var map;
+  function init(){
+    var mapOptions = {
+      zoom:10,
+      center:new google.maps.LatLng(41.876438, -87.620576)
+    };
+    map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+  }
+  // add DOM listener to the window object, when the map is loaded, it will execute init function
+  google.maps.event.addDomListener(window, 'load', init);
+
+</script>
+
+{%endhighlight%}
 
