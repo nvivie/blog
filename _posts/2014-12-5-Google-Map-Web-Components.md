@@ -74,8 +74,15 @@ In your command line, get to your project by
 ```
 cd my-project
 ```
+
 Install Google Web Componenents
 
 ```
-bower install google-map
+bower install GoogleWebComponents/google-map
+```
+
+You will find google-map folder installed in bower_components folder. You just need to import google-map.html file in the header
+
+```
+<link rel="import" href="bower_components/google-map/google-map.html">
 ```
