@@ -25,20 +25,24 @@ This is my example of using Web Components + Polymer + Google SpreadSheets + Goo
   Bower is a package manager for the web.
   
   - Download and install Node.js from nodejs.org
-  - Use command line to install Bower:  
+  - Use command line to install Bower: 
+  
   ```
       npm install -g bower (-g: to make Bower globally available in the system )
   ```
   - Create new folder that runs Bower : 
+  
   ```
       mkdir my-project
   ```
   - Run bower inside my-project
+  
   ```
       bower init
   ```
-  - It will ask you some questions to help you buil the bower.json file
+  - It will ask you some questions to help you build the bower.json file
   - Install Polymer
+  
   ```
       bower install polymer --save
   ```
