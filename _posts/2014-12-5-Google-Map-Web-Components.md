@@ -19,5 +19,5 @@ title: Google Map Web Components
   - Create new folder that runs Bower : mkdir my-project
   
   ```bash
-  ```bower init
+  bower init
   ```
