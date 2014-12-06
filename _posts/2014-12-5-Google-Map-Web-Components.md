@@ -98,14 +98,7 @@ Create your custom element in seperate html file. Don't forget to inset an impor
 
 ```
 <polymer-element name="my-element">
-  <template>
-      <google-sheets key="1AsR71hx_Kw_Yq--UEEq3mWxzk73RYsdqZTMxBjJrJjg" rows="{{rows}}" published></google-sheets>
-      <google-map fittomarkers id="google_map">
-        <template repeat="{{row in rows}}">
-          <google-map-marker latitude="{{row.gsx$lat.$t}}" longitude="{{row.gsx$lng.$t}}"></google-map-marker>
-        </template>
-      </google-map>
-  </template>
+  <template></template>
 </polymer-element>
 ```
 
