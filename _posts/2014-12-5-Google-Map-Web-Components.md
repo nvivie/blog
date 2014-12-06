@@ -30,17 +30,21 @@ This is my example of using Web Components + Polymer + Google SpreadSheets + Goo
   ```
       npm install -g bower (-g: to make Bower globally available in the system )
   ```
+  
   - Create new folder that runs Bower : 
   
   ```
       mkdir my-project
   ```
+  
   - Run bower inside my-project
   
   ```
       bower init
   ```
+  
   - It will ask you some questions to help you build the bower.json file
+  
   - Install Polymer
   
   ```
