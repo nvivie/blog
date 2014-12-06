@@ -15,7 +15,8 @@ This is my example of using Web Components + Polymer + Google SpreadSheets + Goo
  
  
  Once you create your google speadsheet file, you will be able to find your key ID of your google spreadsheet in the URL bar (https://docs.google.com/spreadsheets/d/```1AsR71hx_Kw_Yq--UEEq3mWxzk73RYsdqZTMxBjJrJjg```/edit#gid=0)
- <strong>Key: 1AsR71hx_Kw_Yq--UEEq3mWxzk73RYsdqZTMxBjJrJjg </strong>
+
+<strong>Key: 1AsR71hx_Kw_Yq--UEEq3mWxzk73RYsdqZTMxBjJrJjg </strong>
  
 
 ### 2. Install Bower and Polymer
@@ -45,4 +46,4 @@ This is my example of using Web Components + Polymer + Google SpreadSheets + Goo
   
   So right now, in your my-project folder, you have bower_components and bower.json. You can create your index.html file ready to test.
   
-  
+### index.html
