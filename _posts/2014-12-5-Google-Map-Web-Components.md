@@ -56,7 +56,7 @@ This is my example of using Web Components + Polymer + Google SpreadSheets + Goo
   So right now, in your my-project folder, you have bower_components and bower.json. You can create your index.html file ready to test.
   
 ### index.html
-In your index file, first thing you have to do is to load the platform in your bower_components folder.This platform is a layer of polyfill that support web components for all browsers
+In your index file, first thing you have to do is to load the platform in your bower_components folder. This platform is a layer of polyfill that support web components for all browsers. Insert this script tag in the header
 
 ```
 <script type="text/javascript" src="bower_components/platform/platform.js"></script>
