@@ -5,7 +5,7 @@ title: Google Map Web Components
 
 This is my example of using Web Components + Polymer + Google SpreadSheets + Google Maps
 
-[Public Art in Chicago](http://iam.colum.edu/students/vi.nguyenngocuyen/FA2014/Emergent%20Web%20Technologies/app/index.html)
+[Public Art Projects in Chicago](http://iam.colum.edu/students/vi.nguyenngocuyen/FA2014/Emergent%20Web%20Technologies/app/index.html)
 
 ### 1. Google SpreadSheets:
   Firstly, you have to create a Google SpreadSheet file. You can store any data that you want as long as it has longtitudes and latitudes available for google maps.
