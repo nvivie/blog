@@ -16,7 +16,7 @@ title: Google Map Web Components
   
   - Download and install Node.js from nodejs.org
   - Use command line to install Bower:  
-  ```bash
+  ```
       npm install -g bower (-g: to make Bower globally available in the system )
   ```
   - Create new folder that runs Bower : 
@@ -24,6 +24,12 @@ title: Google Map Web Components
       mkdir my-project
   ```
   - Run bower inside my-project
-  ```bash
+  ```
       bower init
   ```
+  - It will ask you some questions to help you buil the bower.json file
+  - Install Polymer
+  ```
+      bower install polymer --save
+  ```
+  It will add the dependencies object in bower.json and create the bower_components folder which contain polymer and platform for you ready to use.
