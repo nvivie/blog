@@ -10,6 +10,7 @@ title: Google Map Web Components
  https://docs.google.com/spreadsheets/d/1AsR71hx_Kw_Yq--UEEq3mWxzk73RYsdqZTMxBjJrJjg/edit?usp=sharing
 
 ### 2. Install Bower and Polymer
+
 #### Install Bower:
   Bower is a package manager for the web.
   - Download and install Node.js (nodejs.org)
