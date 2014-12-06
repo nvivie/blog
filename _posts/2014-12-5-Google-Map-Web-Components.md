@@ -3,6 +3,10 @@ layout: post
 title: Google Map Web Components
 ---
 
+This is my example of using Web Components + Polymer + Google SpreadSheets + Google Maps
+
+[Public Art in Chicago](http://iam.colum.edu/students/vi.nguyenngocuyen/FA2014/Emergent%20Web%20Technologies/app/index.html)
+
 ### 1. Google SpreadSheets:
   Firstly, you have to create a Google SpreadSheet file. You can store any data that you want as long as it has longtitudes and latitudes available for google maps.
   
@@ -32,4 +36,8 @@ title: Google Map Web Components
   ```
       bower install polymer --save
   ```
-  It will add the dependencies object in bower.json and create the bower_components folder which contain polymer and platform for you ready to use.
+  It will add the dependencies object in bower.json and create the bower_components folder which contains polymer and platform for you ready to use.
+  
+  So right now, in your my-project folder, you have bower_components and bower.json. You can create your index.html file ready to test.
+  
+  
