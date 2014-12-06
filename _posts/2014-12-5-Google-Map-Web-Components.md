@@ -96,6 +96,7 @@ Check this website for available google web components:
 Now you have your dependencies installed.
 Create your custom element in seperate html file. Don't forget to inset an import link in your index.html.
 
+
 ```
 <polymer-element name="my-element">
   <template>
