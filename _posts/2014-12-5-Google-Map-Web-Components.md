@@ -94,7 +94,7 @@ Check this website for available google web components:
 
 ### Polymer and Google Web Componenents
 Now you have your dependencies installed.
-Create your custom element in seperate html file. Don't forget to inset an import link on your index.html.
+Create your custom element in seperate html file. Don't forget to inset an import link in your index.html.
 
 ```
 <polymer-element name="my-element">
@@ -118,4 +118,11 @@ is the key of your google spreadsheet. Your data will be called in your ```rows`
 
 In the ```google-map```, you declare the template, looping over the data that you pull out from spreadsheet and stamping out the google map marker childrens.
 
-The last thing you have to do is to declare the ```my-element``` on your index.html
+The last thing you have to do is to declare the ```my-element``` tags in your index.html
+
+### Tips: Web Components don't run locally
+You can run it in local web server like Python server
+In your command line:
+```
+python -m SimpleHTTPServer
+```
