@@ -121,7 +121,7 @@ In the ```google-map```, you declare the template, looping over the data that yo
 The last thing you have to do is to declare the ```my-element``` tags in your index.html
 
 ### Tips: Web Components don't run locally
-You can run it in local web server like Python server
+You can run it in local web server like Python server.
 In your command line:
 ```
 python -m SimpleHTTPServer
