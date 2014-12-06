@@ -77,4 +77,5 @@ cd my-project
 Install Google Web Componenents
 
 ```
-bower install google
+bower install google-map
+```
