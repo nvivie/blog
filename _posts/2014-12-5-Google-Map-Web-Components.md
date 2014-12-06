@@ -61,3 +61,20 @@ In your index file, first thing you have to do is to load the platform in your b
 ```
 <script type="text/javascript" src="bower_components/platform/platform.js"></script>
 ```
+
+Use the link tag to import polymer.html
+
+```
+<link rel="import" href="bower_components/polymer/polymer.html">
+```
+
+### Install google map components
+In your command line, get to your project by
+
+```
+cd my-project
+```
+Install Google Web Componenents
+
+```
+bower install google
