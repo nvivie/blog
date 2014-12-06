@@ -20,11 +20,10 @@ title: Google Map Web Components
       npm install -g bower (-g: to make Bower globally available in the system )
   ```
   - Create new folder that runs Bower : 
-  ```bash
+  ```
       mkdir my-project
   ```
   - Run bower inside my-project
-  
   ```bash
       bower init
   ```
