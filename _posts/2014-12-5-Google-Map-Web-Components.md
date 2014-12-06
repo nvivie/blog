@@ -90,3 +90,8 @@ For the other Google Web Componenents, you do the same step as example above by 
 
 Check this website for available google web components: 
 [Google Web Components](http://googlewebcomponents.github.io/)
+
+
+### Polymer and Google Web Componenents
+Now you have your dependencies installed.
+Using '<polymer-element>' to create your custom element
