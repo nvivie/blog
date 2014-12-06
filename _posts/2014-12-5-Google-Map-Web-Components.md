@@ -15,9 +15,16 @@ title: Google Map Web Components
   Bower is a package manager for the web.
   
   - Download and install Node.js from nodejs.org
-  - Use command line to install Bower:  npm install -g bower (-g: to make Bower globally available in the system )
-  - Create new folder that runs Bower : mkdir my-project
+  - Use command line to install Bower:  
+  ```bash
+      npm install -g bower (-g: to make Bower globally available in the system )
+  ```
+  - Create new folder that runs Bower : 
+  ```bash
+      mkdir my-project
+  ```
+  - Run bower inside my-project
   
   ```bash
-  bower init
+      bower init
   ```
