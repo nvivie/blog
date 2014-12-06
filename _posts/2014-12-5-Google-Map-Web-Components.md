@@ -115,7 +115,6 @@ Create your custom element:
       </section>
   </template>
 </polymer-element>
-
 ```
 Inside this google template, you have google-sheet components which are the one will talk to your spreadsheet. 
 
