@@ -94,7 +94,7 @@ Check this website for available google web components:
 
 ### Polymer and Google Web Componenents
 Now you have your dependencies installed.
-Create your custom element:
+Create your custom element in seperate html file. Don't forget to inset an import link on your index.html.
 
 ```
 <polymer-element name="my-element">
@@ -105,14 +105,6 @@ Create your custom element:
           <google-map-marker latitude="{{row.gsx$lat.$t}}" longitude="{{row.gsx$lng.$t}}"></google-map-marker>
         </template>
       </google-map>
-      <section id="info-display">
-        <ul>
-          <template repeat="{{rows}}">
-            <li style="color: #00004c; font-weight: bold;">Name: {{gsx$name.$t}} </li>
-            <li>Address: {{gsx$location.$t}}</li></br>
-          </template>
-        </ul>
-      </section>
   </template>
 </polymer-element>
 ```
@@ -123,3 +115,7 @@ Inside this google template, you have google-sheet components which are the one 
 key="1AsR71hx_Kw_Yq--UEEq3mWxzk73RYsdqZTMxBjJrJjg" 
 ```
 is the key of your google spreadsheet. Your data will be called in your ```rows``` attribute. Make sure your spreadsheet is published (in spreadsheet, go to file --> publish to the web).
+
+In the ```google-map```, you declare the template, looping over the data that you pull out from spreadsheet and stamping out the google map marker childrens.
+
+The last thing you have to do is to declare the ```my-element``` on your index.html
