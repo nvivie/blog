@@ -17,6 +17,7 @@ title: Google Map Web Components
   - Download and install Node.js from nodejs.org
   - Use command line to install Bower:  npm install -g bower (-g: to make Bower globally available in the system )
   - Create new folder that runs Bower : mkdir my-project
-  - ||```bash 
-  - || bower init
-  - || ```
+  
+||```bash
+|| 
+||```
