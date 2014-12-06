@@ -87,4 +87,6 @@ You will find google-map folder installed in bower_components folder. You just n
 <link rel="import" href="bower_components/google-map/google-map.html">
 ```
 For the other Google Web Componenents, you do the same step as example above by using ``` bower install ```
-Visit [Google Web Components](http://googlewebcomponents.github.io/)
+
+Check this website for available google web components: 
+[Google Web Components](http://googlewebcomponents.github.io/)
