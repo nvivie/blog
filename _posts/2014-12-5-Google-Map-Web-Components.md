@@ -99,21 +99,27 @@ Create your custom element:
 ```
 <polymer-element name="my-element">
   <template>
-     <google-sheets key="1AsR71hx_Kw_Yq--UEEq3mWxzk73RYsdqZTMxBjJrJjg" rows="{{rows}}" published></google-sheets>
-  <google-map fittomarkers id="google_map">
-      <template repeat="{{row in rows}}">
-        <google-map-marker latitude="{{row.gsx$lat.$t}}" longitude="{{row.gsx$lng.$t}}"></google-map-marker>
-      </template>
-  </google-map>
-  <section id="info-display">
+      <google-sheets key="1AsR71hx_Kw_Yq--UEEq3mWxzk73RYsdqZTMxBjJrJjg" rows="{{rows}}" published></google-sheets>
+      <google-map fittomarkers id="google_map">
+        <template repeat="{{row in rows}}">
+          <google-map-marker latitude="{{row.gsx$lat.$t}}" longitude="{{row.gsx$lng.$t}}"></google-map-marker>
+        </template>
+      </google-map>
+      <section id="info-display">
         <ul>
           <template repeat="{{rows}}">
             <li style="color: #00004c; font-weight: bold;">Name: {{gsx$name.$t}} </li>
             <li>Address: {{gsx$location.$t}}</li></br>
           </template>
         </ul>
-  </section>
-
+      </section>
   </template>
 </polymer-element>
+
 ```
+Inside this google template, you have google-sheet components which are the one will talk to your spreadsheet. 
+
+```
+key="1AsR71hx_Kw_Yq--UEEq3mWxzk73RYsdqZTMxBjJrJjg" 
+```
+is the key of your google spreadsheet. Your data will be called in your ```rows``` attribute. Make sure your spreadsheet is published (in spreadsheet, go to file --> publish to the web).
