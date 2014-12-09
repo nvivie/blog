@@ -96,7 +96,7 @@ Check this website for available google web components:
 Now you have your dependencies installed.
 Create your custom element in seperate html file. Don't forget to inset an import link in your index.html.
 
-
+```
 &lt;polymer-element name="my-element"&lt;
   &lt;template&lt;&lt;google-sheets key="1AsR71hx_Kw_Yq--UEEq3mWxzk73RYsdqZTMxBjJrJjg" rows="{{rows}}" published&lt;&lt;/google-sheets&lt;
       &lt;google-map fittomarkers id="google_map"&lt;
@@ -105,7 +105,7 @@ Create your custom element in seperate html file. Don't forget to inset an impor
         &lt;/template&lt;
       &lt;/google-map&lt;&lt;/template&lt;
 &lt;/polymer-element&lt;
-
+```
 
 Inside this google template, you have google-sheet components which are the one will talk to your spreadsheet. 
 
