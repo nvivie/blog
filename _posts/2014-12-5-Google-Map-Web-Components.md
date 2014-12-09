@@ -105,7 +105,6 @@ Create your custom element in seperate html file. Don't forget to inset an impor
         &lt;/template&lt;
       &lt;/google-map&lt;&lt;/template&lt;
 &lt;/polymer-element&lt;
-
 ```
 
 Inside this google template, you have google-sheet components which are the one will talk to your spreadsheet. 
