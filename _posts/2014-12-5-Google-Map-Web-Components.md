@@ -55,7 +55,7 @@ This is my example of using Web Components + Polymer + Google SpreadSheets + Goo
   
   So right now, in your my-project folder, you have bower_components and bower.json. You can create your index.html file ready to test.
   
-### index.html
+### 3.index.html
 In your index file, first thing you have to do is to load the platform in your bower_components folder. This platform is a layer of polyfill that support web components for all browsers. Insert this script tag in the header
 
 ```
@@ -68,7 +68,7 @@ Use the link tag to import polymer.html
 <link rel="import" href="bower_components/polymer/polymer.html">
 ```
 
-### Install google map components
+### 4.Install google map components
 In your command line, get to your project by
 
 ```
@@ -92,7 +92,7 @@ Check this website for available google web components:
 [Google Web Components](http://googlewebcomponents.github.io/)
 
 
-### Polymer and Google Web Componenents
+### 5.Polymer and Google Web Componenents
 Now you have your dependencies installed.
 Create your custom element in seperate html file. Don't forget to inset an import link in your index.html.
 
@@ -119,7 +119,7 @@ In the ```google-map```, you declare the template, looping over the data that yo
 
 The last thing you have to do is to declare the ```my-element``` tags in your index.html
 
-### Tips: Web Components don't run locally
+### 6.Tips: Web Components don't run locally
 You can run it in local web server like Python server.
 In your command line:
 ```
