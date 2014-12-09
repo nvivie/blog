@@ -43,7 +43,7 @@ This is my example of using Web Components + Polymer + Google SpreadSheets + Goo
       bower init
   ```
   
-  - It will ask you some questions to help you build the bower.json file
+  - It will ask you some questions to help you build the <strong>bower.json</strong> file
   
   - Install Polymer
   
