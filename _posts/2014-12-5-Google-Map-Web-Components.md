@@ -126,4 +126,4 @@ python -m SimpleHTTPServer
 ```
 
 #### To get latitude and longtitude:
-[LatLong.net]http://www.latlong.net/
+[LatLong.net](http://www.latlong.net/)
