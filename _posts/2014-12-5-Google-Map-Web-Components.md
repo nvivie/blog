@@ -128,4 +128,4 @@ python -m SimpleHTTPServer
 #### To get latitude and longtitude:
 [LatLong.net](http://www.latlong.net/)
 
-[App]http://iam.colum.edu/students/vi.nguyenngocuyen/FA2014/Emergent%20Web%20Technologies/app/index.html
+[App](http://iam.colum.edu/students/vi.nguyenngocuyen/FA2014/Emergent%20Web%20Technologies/app/index.html)
