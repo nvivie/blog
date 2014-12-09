@@ -11,7 +11,7 @@ This is my example of using Web Components + Polymer + Google SpreadSheets + Goo
   Firstly, you have to create a Google SpreadSheet file. You can store any data that you want as long as it has longtitudes and latitudes available for google maps. These are the datas that will run on google map marker objects.
   
  This is the spreadsheet example that I use for this project:
- [Speadsheeet Example](https://docs.google.com/spreadsheets/d/1AsR71hx_Kw_Yq--UEEq3mWxzk73RYsdqZTMxBjJrJjg/edit?usp=sharing)
+ [Spreadsheet Example](https://docs.google.com/spreadsheets/d/1AsR71hx_Kw_Yq--UEEq3mWxzk73RYsdqZTMxBjJrJjg/edit?usp=sharing)
  
  
  Once you create your google speadsheet file, you will be able to find your key ID of your google spreadsheet in the URL bar (https://docs.google.com/spreadsheets/d/```1AsR71hx_Kw_Yq--UEEq3mWxzk73RYsdqZTMxBjJrJjg```/edit#gid=0)
